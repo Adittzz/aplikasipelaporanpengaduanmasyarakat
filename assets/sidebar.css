@@ -1,0 +1,26 @@
+#accordionSidebar {
+    background: linear-gradient(-45deg, #FF0000, #00ffea);
+    background-size: 300%;
+    position: relative;
+    animation: change 7s ease-in-out infinite;
+}
+
+.card-title {
+    color: white;
+}
+
+.card-text {
+    color: white;
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}

@@ -1,0 +1,11 @@
+<tbody>
+  <?php $no = 1;
+  foreach($masyarakat as $ms): ?>
+  <tr>
+    <td><?= $no++ ?></td>
+    <td><?= $ms['Username'] ?></td>
+    <td><?= $ms['tgl_pengaduan'] ?></td>
+    <td><?= $ms['Username'] ?></td>
+  </tr>
+  <?php endforeach; ?>
+  </tbody>
